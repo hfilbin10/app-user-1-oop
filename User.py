@@ -28,8 +28,7 @@ class User:
     def __str__(self):
         return f"{self.name} is a new user and can be contacted at {self._email} and their driver's license number is {self._driver_license_number}"
     
-    def welcome_message(self):
-        print(f"Welcome {self.name} to our new app!")
+    
 
 user1 = User(name="Maple", email="maple@.com", driver_license_number="1234")
 user2 = User(name="Moab", email="moab@.com", driver_license_number="5678")
